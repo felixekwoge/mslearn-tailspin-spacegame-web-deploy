@@ -72,7 +72,7 @@ stages:
   - deployment: Deploy
     pool:
       vmImage: 'ubuntu-18.04'
-      environment: deploy
+      environment: Deploy
     variables:
     - group: Release
     strategy:
